@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:text="MAIN ACTIVITY"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnExplicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:text="PINDAH ACTIVITY" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Input Nomor Telepon"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnImplicit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:text="DIAL PHONE NUMBER" />
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Input Nama"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Input Umur"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CFBF2E"
+        android:text="PINDAH ACTIVITY DENGAN DATA" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Input E-mail"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/editKota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Input Kota"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="PINDAH ACTIVITY DENGAN OBJECT" />
+</LinearLayout>
